@@ -1,0 +1,7 @@
+D:\INFINITE\proj1\proj1\obj\Debug\proj1.csproj.AssemblyReference.cache
+D:\INFINITE\proj1\proj1\obj\Debug\proj1.csproj.CoreCompileInputs.cache
+D:\INFINITE\proj1\proj1\bin\Debug\proj1.exe.config
+D:\INFINITE\proj1\proj1\bin\Debug\proj1.exe
+D:\INFINITE\proj1\proj1\bin\Debug\proj1.pdb
+D:\INFINITE\proj1\proj1\obj\Debug\proj1.exe
+D:\INFINITE\proj1\proj1\obj\Debug\proj1.pdb

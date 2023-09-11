@@ -1,0 +1,37 @@
+using System;
+class Program
+{
+ static void Main()
+ {
+ // Task 1: Accept a word from the user and display its length
+ Console.Write("Enter a word: ");
+ string word = Console.ReadLine();
+ int length = word.Length;
+ Console.WriteLine($"Length of the word: {length}");
+ // Task 2: Accept a word from the user and display its reverse
+ Console.Write("Enter a word to reverse: ");
+ string wordToReverse = Console.ReadLine();
+ string reversedWord = ReverseString(wordToReverse);
+ Console.WriteLine($"Reversed word: {reversedWord}");
+ // Task 3: Accept two words from the user and check if they are the same
+ Console.Write("Enter the first word: ");
+ string firstWord = Console.ReadLine();
+ Console.Write("Enter the second word: ");
+ string secondWord = Console.ReadLine();
+ if (string.Equals(firstWord, secondWord, StringComparison.OrdinalIgnoreCase))
+ {
+ Console.WriteLine("The two words are the same.");
+ }
+ else
+ {
+ Console.WriteLine("The two words are not the same.");
+ }
+ }
+ // Function to reverse a string
+ static string ReverseString(string input)
+ {
+ char[] charArray = input.ToCharArray();
+ Array.Reverse(charArray);
+ return new string(charArray);
+ }
+}
