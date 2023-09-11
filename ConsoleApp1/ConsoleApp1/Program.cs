@@ -10,6 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int sum = name.add(2, 3);
+            Console.WriteLine(sum);
+            Console.ReadLine();
+
+
+        }
+    }
+    
+    class name
+    {
+         public static int  add(int a , int b)
+        {
+            return a + b;
         }
     }
 }
