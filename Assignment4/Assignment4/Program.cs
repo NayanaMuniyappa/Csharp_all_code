@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 class Program
 {
@@ -28,11 +29,11 @@ class Program
         if (amount > 0)
         {
             balance += amount;
-            Console.WriteLine($"Amount {amount} credited to Account {accountNo}. New balance: {balance}");
+            WriteLine($"Amount {amount} credited to Account {accountNo}. New balance: {balance}");
         }
         else
         {
-            Console.WriteLine("Invalid amount for credit.");
+            WriteLine("Invalid amount for credit.");
         }
     }
 
@@ -43,26 +44,26 @@ class Program
             if (amount <= balance)
             {
                 balance -= amount;
-                Console.WriteLine($"Amount {amount} debited from Account {accountNo}. New balance: {balance}");
+                WriteLine($"Amount {amount} debited from Account {accountNo}. New balance: {balance}");
             }
             else
             {
-                Console.WriteLine("Insufficient balance for debit.");
+                WriteLine("Insufficient balance for debit.");
             }
         }
         else
         {
-            Console.WriteLine("Invalid amount for debit.");
+            WriteLine("Invalid amount for debit.");
         }
     }
 
     public void ShowData()
     {
-        Console.WriteLine($"Account Number: {accountNo}");
-        Console.WriteLine($"Customer Name: {customerName}");
-        Console.WriteLine($"Account Type: {accountType}");
-        Console.WriteLine($"Transaction Type: {transactionType}");
-        Console.WriteLine($"Current Balance: {balance}");
+        WriteLine($"Account Number: {accountNo}");
+        WriteLine($"Customer Name: {customerName}");
+        WriteLine($"Account Type: {accountType}");
+        WriteLine($"Transaction Type: {transactionType}");
+        WriteLine($"Current Balance: {balance}");
     }
 
     public static void Main(string[] args)

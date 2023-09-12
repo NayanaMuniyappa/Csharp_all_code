@@ -1,8 +1,9 @@
-﻿using System;
+﻿using static System.Console;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System;
 
 class Student
 {
@@ -24,11 +25,11 @@ class Student
 
     public void GetMarks()
     {
-        Console.WriteLine($"Enter marks for {name}:");
+        WriteLine($"Enter marks for {name}:");
         for (int i = 0; i < 5; i++)
         {
-            Console.Write($"Enter marks for Subject {i + 1}: ");
-            marks[i] = Convert.ToInt32(Console.ReadLine());
+            Write($"Enter marks for Subject {i + 1}: ");
+            marks[i] = Convert.ToInt32(ReadLine());
         }
     }
 
@@ -59,22 +60,22 @@ class Student
 
         if (passed && average >= 50)
         {
-            Console.WriteLine($"Result for {name}: Passed");
+            WriteLine($"Result for {name}: Passed");
         }
         else
         {
-            Console.WriteLine($"Result for {name}: Failed");
+            WriteLine($"Result for {name}: Failed");
         }
     }
 
     public void DisplayData()
     {
-        Console.WriteLine($"Roll Number: {rollNo}");
-        Console.WriteLine($"Name: {name}");
-        Console.WriteLine($"Class: {studentClass}");
-        Console.WriteLine($"Semester: {semester}");
-        Console.WriteLine($"Branch: {branch}");
-        Console.WriteLine($"Marks: [{string.Join(", ", marks)}]");
+        WriteLine($"Roll Number: {rollNo}");
+        WriteLine($"Name: {name}");
+        WriteLine($"Class: {studentClass}");
+        WriteLine($"Semester: {semester}");
+        WriteLine($"Branch: {branch}");
+        WriteLine($"Marks: [{string.Join(", ", marks)}]");
     }
 
     public static void Main(string[] args)
@@ -83,5 +84,7 @@ class Student
         student.GetMarks();
         student.DisplayData();
         student.DisplayResult();
+        Read();
+        
     }
 }
