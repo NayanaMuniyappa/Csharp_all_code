@@ -1,6 +1,0 @@
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\obj\Debug\consoleapp2.csproj.CoreCompileInputs.cache
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\bin\Debug\consoleapp2.exe.config
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\bin\Debug\consoleapp2.exe
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\bin\Debug\consoleapp2.pdb
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\obj\Debug\consoleapp2.exe
-D:\CSharp_Training_all_day\consoleapp2\consoleapp2\obj\Debug\consoleapp2.pdb
