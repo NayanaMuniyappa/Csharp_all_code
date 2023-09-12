@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Accounts
+class Program
 {
     private string accountNo;
     private string customerName;
@@ -13,7 +13,7 @@ class Accounts
     private double amount;
     private double balance;
 
-    public Accounts(string accountNo, string customerName, string accountType, char transactionType, double amount)
+    public Program(string accountNo, string customerName, string accountType, char transactionType, double amount)
     {
         this.accountNo = accountNo;
         this.customerName = customerName;
@@ -67,7 +67,7 @@ class Accounts
 
     public static void Main(string[] args)
     {
-        Accounts account = new Accounts("1033402", "Nayana", "current", 'D', 20000);
+        Program account = new Program("1033402", "Nayana", "current", 'D', 20000);
         account.Credit(500);
         account.Debit(300);
         account.ShowData();
