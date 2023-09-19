@@ -42,8 +42,9 @@ namespace codebaseTest_2
             Console.WriteLine("\nSorted Products by Price:");
             foreach (var product in sortedProducts)
             {
-                Console.WriteLine($"Product ID: {product.ProductId}, Name: {product.ProductName}, Price: {product.Price:C}");
+                Console.WriteLine($"Product ID: {product.ProductId}, Name: {product.ProductName}, Price: {product.Price}");
             }
+            Console.ReadLine();
         }
     }
 }
