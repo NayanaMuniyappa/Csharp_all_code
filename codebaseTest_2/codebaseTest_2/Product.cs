@@ -31,7 +31,7 @@ namespace codebaseTest_2
                 Console.Write($"Enter the name of product {i}: ");
                 product.ProductName = Console.ReadLine();
                 Console.Write($"Enter the price of product {i}: ");
-                product.Price = decimal.Parse(Console.ReadLine());
+                product.Price = Convert.ToDecimal(Console.ReadLine());
                 products.Add(product);
             }
 
