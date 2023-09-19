@@ -39,11 +39,8 @@ public class Graduate : Student
         else
             return false;
     }
-}
 
-class Program
-{
-    static void Main()
+    public static void Main(string[] args)
     {
         Undergraduate ud = new Undergraduate();
         ud.Name = "Nayana";

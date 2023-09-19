@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1DCA6D62-8CFD-4787-8868-B87BCDC07E98}</ProjectGuid>
+    <ProjectGuid>{A0FD9B33-5D89-4104-9A11-03DB08259A34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>codebaseTest_2</RootNamespace>
-    <AssemblyName>codebaseTest_2</AssemblyName>
+    <RootNamespace>case_study</RootNamespace>
+    <AssemblyName>case_study</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>codebaseTest_2.Program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product.cs" />
-    <Compile Include="graduate.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

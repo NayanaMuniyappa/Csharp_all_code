@@ -14,7 +14,15 @@ namespace codebaseTest_2
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
+         
+        public Product(int pid,string pname,double price)
+        {
+            this.ProductId = pid;
+            this.ProductName = pname;
+            this.Price = price;
+
+        }
     }
 
     class Program
@@ -26,12 +34,13 @@ namespace codebaseTest_2
         
             for (int i = 1; i <= 10; i++)
             {
-                Product product = new Product();
-                product.ProductId = i;
+                
+              
                 Console.Write($"Enter the name of product {i}: ");
-                product.ProductName = Console.ReadLine();
+                string Name = Console.ReadLine();
                 Console.Write($"Enter the price of product {i}: ");
-                product.Price = Convert.ToDecimal(Console.ReadLine());
+                 double Price = Convert.ToDouble(Console.ReadLine());
+                Product product[i] = new Product();
                 products.Add(product);
             }
 
