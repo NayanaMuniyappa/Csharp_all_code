@@ -1,0 +1,10 @@
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\bin\Debug\Main_project.exe.config
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\bin\Debug\Main_project.exe
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\bin\Debug\Main_project.pdb
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\bin\Debug\Conssession_Namespace.dll
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\bin\Debug\Conssession_Namespace.pdb
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\obj\Debug\Main_project.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\obj\Debug\Main_project.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\obj\Debug\Main_project.csproj.CopyComplete
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\obj\Debug\Main_project.exe
+D:\CSharp_Training_all_day\Conssession_Namespace\Main_project\obj\Debug\Main_project.pdb
