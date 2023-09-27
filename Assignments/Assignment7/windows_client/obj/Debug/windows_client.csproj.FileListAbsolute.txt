@@ -1,0 +1,14 @@
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\windows_client.exe.config
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\windows_client.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\windows_client.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\RemotingServer.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.Form1.resources
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.Properties.Resources.resources
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.csproj.GenerateResource.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.csproj.CopyComplete
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\obj\Debug\windows_client.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\RemotingServer.dll
+D:\CSharp_Training_all_day\Assignments\Assignment7\windows_client\bin\Debug\RemotingServer.dll.config

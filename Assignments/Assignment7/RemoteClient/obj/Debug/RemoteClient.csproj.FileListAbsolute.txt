@@ -1,0 +1,11 @@
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\RemoteClient.exe.config
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\RemoteClient.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\RemoteClient.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\Assignment7.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\Assignment7.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\bin\Debug\Assignment7.exe.config
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\obj\Debug\RemoteClient.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\obj\Debug\RemoteClient.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\obj\Debug\RemoteClient.csproj.CopyComplete
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\obj\Debug\RemoteClient.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\RemoteClient\obj\Debug\RemoteClient.pdb
