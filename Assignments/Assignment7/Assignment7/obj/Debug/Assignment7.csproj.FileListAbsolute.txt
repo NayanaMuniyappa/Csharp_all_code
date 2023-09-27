@@ -1,6 +1,0 @@
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\bin\Debug\Assignment7.exe.config
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\bin\Debug\Assignment7.exe
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\bin\Debug\Assignment7.pdb
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\obj\Debug\Assignment7.csproj.CoreCompileInputs.cache
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\obj\Debug\Assignment7.exe
-D:\CSharp_Training_all_day\Assignments\Assignment7\Assignment7\obj\Debug\Assignment7.pdb

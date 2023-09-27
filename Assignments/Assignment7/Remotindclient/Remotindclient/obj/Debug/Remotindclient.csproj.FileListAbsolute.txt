@@ -1,0 +1,13 @@
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\bin\Debug\Remotindclient.exe.config
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\bin\Debug\Remotindclient.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\bin\Debug\Remotindclient.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\bin\Debug\RemotingServer.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\bin\Debug\RemotingServer.pdb
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.Form1.resources
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.Properties.Resources.resources
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.csproj.GenerateResource.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.csproj.CopyComplete
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.exe
+D:\CSharp_Training_all_day\Assignments\Assignment7\Remotindclient\Remotindclient\obj\Debug\Remotindclient.pdb
