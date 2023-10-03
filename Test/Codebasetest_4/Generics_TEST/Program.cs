@@ -42,9 +42,10 @@ namespace employee
 
 
             Console.WriteLine("Details of employee");
+   
             foreach (var empdetails in EmpList)
             {
-                Console.WriteLine($"EmployeeID: {empdetails.Empid}, Name: {empdetails.FName} {empdetails.LName}, Title: {empdetails.Title}, DOB: {empdetails.DOB}, DOJ: {empdetails.DOJ}, City: {empdetails.City}");
+                Console.WriteLine($"ID:{empdetails.Empid}\tNAME:{empdetails.FName}\tLASTNAME:{empdetails.LName}\t\tTITLE:{empdetails.Title}\t\tDOB:{empdetails.DOB}\tDOJ:{empdetails.DOJ}\tCITY:{empdetails.City}");
             }
 
 

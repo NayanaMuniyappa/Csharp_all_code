@@ -1,1 +1,6 @@
 D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\obj\Debug\Codebasetest_4.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\bin\Debug\Codebasetest_4.exe.config
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\bin\Debug\Codebasetest_4.exe
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\bin\Debug\Codebasetest_4.pdb
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\obj\Debug\Codebasetest_4.exe
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Codebasetest_4\obj\Debug\Codebasetest_4.pdb

@@ -4,60 +4,53 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-delegate int CalculatorOperation(int num1, int num2);
-
-class Calculator
+namespace Codebasetest_4
 {
-    public int Add(int num1, int num2)
+    class Delegates_test
     {
-        return num1 + num2;
-    }
-    public int Subtract(int num1, int num2)
-    {
-        return num1 - num2;
-    }
-    public int Multiply(int num1, int num2)
-    {
-        return num1 * num2;
-    }
-}
-
-class Delegates_test
-{
-    static void Main()
-    {
-        Calculator calculator = new Calculator();
-
-        Console.WriteLine("Select an operation:");
-        Console.WriteLine("1. Addition");
-        Console.WriteLine("2. Subtraction");
-        Console.WriteLine("3. Multiplication");
-        Console.WriteLine("Enter choice");
-        char c = Convert.ToChar(Console.ReadLine());
-        Console.Write("Enter number1:");
-        int n1 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter number2:");
-        int n2 = Convert.ToInt32(Console.ReadLine());
-        CalculatorOperation cc = null;
+        public static int add(int a, int b) => a + b;
+        public static int sub(int a, int b) => a - b;
+        public static int muliplication(int a, int b) => a * b;
+        public static int Divi(int a, int b)
+        {
+            return a / b;
+        }
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("ENTER YOUR OPERATION");
+            Console.WriteLine("1.ADDITION");
+            Console.WriteLine("2.DIFFERENCE");
+            Console.WriteLine("3.MULTIPLICATION");
+            Console.WriteLine("4.DIVISION");
+            
+           int c =Convert.ToInt32( Console.ReadLine());
+            Console.WriteLine("ENTER NUMBER1");
+           int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("ENTER NUMBER2");
+           int y = Convert.ToInt32(Console.ReadLine());
+            Func<int, int, int> fs;
             switch (c)
             {
-                case '1':
-                    cc = calculator.Add;
-                    Console.WriteLine(cc(n1, n2));
+                case 1:fs = add;
+                    Console.WriteLine(fs(x,y));
                     break;
-                case '2':
-                    cc = calculator.Subtract;
-                    Console.WriteLine(cc(n1, n2));
+                case 2:
+                     fs = sub;
+                    Console.WriteLine(fs(x, y));
                     break;
-                case '3':
-                    cc = calculator.Multiply;
-                    Console.WriteLine(cc(n1, n2));
+                case 3:
+                    fs =muliplication;
+                    Console.WriteLine(fs(x, y));
+                    break;
+                case 4:
+                    fs = Divi;
+                    Console.WriteLine(fs(x, y));
+                    break;
+                default: Console.WriteLine("INVALID OPTION");
                     break;
 
-                default:
-                    Console.WriteLine("Invalid choice. Please select a valid operation.");
-                    return;
             }
-        Console.Read();
-    }   
+            Console.ReadLine();
+        }
+    }
 }
