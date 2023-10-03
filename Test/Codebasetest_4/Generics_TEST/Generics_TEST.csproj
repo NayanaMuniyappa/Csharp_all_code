@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0208857F-DC8D-473E-BE44-DC4F0EF471BA}</ProjectGuid>
+    <ProjectGuid>{DC92A04B-CF6C-4042-B29B-A196F211CED5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Codebasetest_4</RootNamespace>
-    <AssemblyName>Codebasetest_4</AssemblyName>
+    <RootNamespace>Generics_TEST</RootNamespace>
+    <AssemblyName>Generics_TEST</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Delegates_test.cs" />
-    <Compile Include="File_test.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

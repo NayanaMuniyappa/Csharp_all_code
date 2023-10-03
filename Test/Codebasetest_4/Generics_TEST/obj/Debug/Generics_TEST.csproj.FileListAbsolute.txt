@@ -1,0 +1,7 @@
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\bin\Debug\Generics_TEST.exe.config
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\bin\Debug\Generics_TEST.exe
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\bin\Debug\Generics_TEST.pdb
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\obj\Debug\Generics_TEST.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\obj\Debug\Generics_TEST.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\obj\Debug\Generics_TEST.exe
+D:\CSharp_Training_all_day\Test\Codebasetest_4\Generics_TEST\obj\Debug\Generics_TEST.pdb
