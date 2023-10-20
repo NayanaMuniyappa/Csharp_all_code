@@ -1,0 +1,14 @@
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.exe.config
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.exe
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.pdb
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.exe
+D:\CSharp_Training_all_day\Test\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.pdb
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.exe.config
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.exe
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\bin\Debug\LINQASSIGNMENT.pdb
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.csproj.CoreCompileInputs.cache
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.exe
+D:\CSharp_Training_all_day\LINQASSIGNMENT\LINQASSIGNMENT\obj\Debug\LINQASSIGNMENT.pdb
