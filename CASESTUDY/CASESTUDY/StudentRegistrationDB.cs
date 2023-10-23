@@ -27,6 +27,11 @@ namespace CASESTUDY
                 student.Date = DateTime.Now;
                 cmd=new SqlCommand("insert into Student_Registration values(@student.s_name,@student.Id,@student.Date)");
                 cmd.Connection = con;
+
+                cmd.Parameters.AddWithValue("@studentName", student.s_Name);
+                cmd.Parameters.AddWithValue("@studentId", student.ID);
+                cmd.Parameters.AddWithValue("@Date_Reg", student.Date);
+
                 cmd.ExecuteNonQuery();
                 Console.WriteLine( "Values Inserted successfully");
 
