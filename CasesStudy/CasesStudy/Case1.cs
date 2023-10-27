@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CASESTUDY
+namespace CasesStudy
 {
-       
         public class Student
         {
             public string s_Name { get; set; }
             public int ID { get; set; }
             public DateTime Date { get; set; }
-
-
 
         }
         class Info
@@ -27,6 +24,5 @@ namespace CASESTUDY
 
                 }
             }
-
         }
-    }
+}

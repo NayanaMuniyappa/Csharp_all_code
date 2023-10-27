@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EFECEC2-72FD-4853-8151-7AC6B3F70655}</ProjectGuid>
+    <ProjectGuid>{7A21AF1E-862B-4C71-B98D-FF234A9650EC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CASESTUDY</RootNamespace>
-    <AssemblyName>CASESTUDY</AssemblyName>
+    <RootNamespace>CasesStudy</RootNamespace>
+    <AssemblyName>CasesStudy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,13 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CASESTUDY.StudentRegistrationDB</StartupObject>
+    <StartupObject>CasesStudy.case3and4.UserInterface</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CASESTUDY, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CASESTUDY.exe</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,23 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CASE1.cs" />
-    <Compile Include="CASE2.cs" />
-    <Compile Include="CASE3.cs" />
+    <Compile Include="Case1.cs" />
+    <Compile Include="Case2.cs" />
+    <Compile Include="case3and4.cs" />
+    <Compile Include="Case5\CoursesDb.cs" />
+    <Compile Include="Case5\Enrollmentdb.cs" />
+    <Compile Include="Case5\StudentRegistrationDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="StudentRegistrationDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

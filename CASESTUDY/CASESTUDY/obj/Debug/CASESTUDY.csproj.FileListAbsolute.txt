@@ -1,7 +1,0 @@
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\bin\Debug\CASESTUDY.exe.config
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\bin\Debug\CASESTUDY.pdb
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\obj\Debug\CASESTUDY.csproj.AssemblyReference.cache
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\obj\Debug\CASESTUDY.csproj.CoreCompileInputs.cache
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\obj\Debug\CASESTUDY.csproj.CopyComplete
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\obj\Debug\CASESTUDY.exe
-D:\CSharp_Training_all_day\CASESTUDY\CASESTUDY\obj\Debug\CASESTUDY.pdb

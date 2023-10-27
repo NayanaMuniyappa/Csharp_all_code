@@ -1,19 +1,15 @@
-﻿
-using System;
-using static System.Console;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data;
-using System.Data.SqlClient;
-using CASESTUDY;
+using static System.Console;
+using CasesStudy;
 
-namespace CASESTUDY_3
+namespace CasesStudy
 {
-    class case3
+    class case3and4
     {
-
         public interface IUserInterface
         {
             void ShowFirstScreen();
@@ -29,10 +25,8 @@ namespace CASESTUDY_3
 
         public class UserInterface : IUserInterface
         {
-            public CASESTUDY.AppEngine appEngine = new CASESTUDY.AppEngine();
-            public static SqlConnection con=null;
-            public static SqlCommand cmd=null;
-            public static SqlDataReader dr;
+            // public CasesStudy.AppEngine appEngine = new CasesStudy.AppEngine();
+
             public void ShowFirstScreen()
             {
                 Console.WriteLine("\t\tSTUDENT MANAGEMENT SYSTEM\n.........................................................");
@@ -64,7 +58,7 @@ namespace CASESTUDY_3
             {
                 Console.WriteLine("..................................STUDENT SCREEN...................................");
                 Console.WriteLine("1.COURSE LIST");
-                Console.WriteLine("2.ENROLLMENT LIST");
+                Console.WriteLine("2.Registration");
                 Console.WriteLine("3.EXIT");
                 Console.Write("ENTER YOUR CHOICE: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
@@ -75,7 +69,7 @@ namespace CASESTUDY_3
                         ShowAllCoursesScreen();
                         break;
                     case 2:
-                        ShowAllStudentsScreen();
+                        ShowStudentRegistrationScreen();
                         break;
                     case 3:
                         Console.WriteLine("Exiting................");
@@ -147,13 +141,18 @@ namespace CASESTUDY_3
 
             public void ShowAllStudentsScreen()
             {
-                Console.WriteLine("List of Students:");
-                Console.WriteLine("STUDENT_ID\t\t\tNAME\t\t\tDATEOFBIRTH");
-                WriteLine(".......................................................................");
-                foreach (Student student in appEngine.listOfStudents())
-                {
-                    Console.WriteLine($"{student.ID}\t\t\t\t{student.s_Name}\t\t\t\t{student.Date.ToShortDateString()}");
-                }
+                //Console.WriteLine("List of Students:");
+                //Console.WriteLine("STUDENT_ID\t\t\tNAME\t\t\tDATEOFBIRTH");
+                //WriteLine(".......................................................................");
+                //foreach (Student student in appEngine.listOfStudents())
+                //{
+                //    Console.WriteLine($"{student.ID}\t\t\t\t{student.s_Name}\t\t\t\t{student.Date.ToShortDateString()}");
+                //}
+                Student student = new Student();
+                Case5.StudentRegistrationDb REG = new Case5.StudentRegistrationDb();
+                REG.Display();
+                Console.WriteLine("...............................................................................");
+
                 Console.WriteLine("Press Enter to return to the previous menu...");
                 Console.ReadLine();
                 ShowAdminScreen();
@@ -176,65 +175,78 @@ namespace CASESTUDY_3
                 //appEngine.register(student);
 
 
-                //Console.WriteLine("Student registered successfully.");
-                //Console.WriteLine("Press Enter to return to the previous menu...");
-                //Console.ReadLine();
 
                 Student student = new Student();
-                StudentRegistrationDB REG = new StudentRegistrationDB();
+                Case5.StudentRegistrationDb REG = new Case5.StudentRegistrationDb();
                 REG.Register(student);
-                Console.Read();
 
-                ShowAdminScreen();
+                Console.WriteLine("Student registered successfully...........................");
+                Console.WriteLine("Press Enter to return to the previous menu...");
+                Console.ReadLine();
+                ShowStudentScreen();
             }
 
             public void IntroduceNewCourseScreen()
             {
-                Console.Write("Enter Course ID: ");
-                int courseId = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Enter Course Name: ");
-                string courseName = Console.ReadLine();
+                //Console.Write("Enter Course ID: ");
+                //int courseId = Convert.ToInt32(Console.ReadLine());
+                //Console.Write("Enter Course Name: ");
+                //string courseName = Console.ReadLine();
 
                 // Introduce a new course
-                appEngine.introduce(courseName, courseId);
-                Console.WriteLine("Course introduced successfully.");
-                Console.WriteLine("Press Enter to return to the previous menu...");
-                Console.ReadLine();
+                //appEngine.introduce(courseName, courseId);
+                //Console.WriteLine("Course introduced successfully.");
+                //Console.WriteLine("Press Enter to return to the previous menu...");
+                //Console.ReadLine();
+                Case5.CoursesDb cource = new Case5.CoursesDb();
+                Cource cc = new Cource();
+                cource.Addcource(cc);
                 ShowAdminScreen();
             }
 
             public void ShowAllCoursesScreen()
             {
                 Console.WriteLine("List of Courses:");
-                Console.WriteLine("COURSE_ID\t\tCOURSE_NAME\n.......................................................");
-                foreach (Cource course in appEngine.listOfCourses())
-                {
-                    Console.WriteLine($"{course.course_id}\t\t\t\t{course.cource_name}");
-                }
-                Console.WriteLine("ENTER TO GO FOR DASHBOARD");
-                Console.ReadLine();
+                // Console.WriteLine("COURSE_ID\t\tCOURSE_NAME\n.......................................................");
+                //foreach (Cource course in appEngine.listOfCourses())
+                //{
+                //    Console.WriteLine($"{course.course_id}\t\t\t\t{course.cource_name}");
+                //}
+
+                Case5.CoursesDb cource = new Case5.CoursesDb();
+                cource.Display();
                 ShowFirstScreen();
+
             }
             public void Enrollment()
             {
 
+                //Student student = new Student();
+                //Console.WriteLine("ENTER STUDENT ID");
+                //student.ID = Convert.ToInt32(ReadLine());
+                //Console.WriteLine("ENTER THE STUDENT NAME:");
+                //student.s_Name = ReadLine();
+                //Console.WriteLine("CHOICE THE COURSE ACCORDING  TO  BELOW LIST");
+                //Console.WriteLine("COURSE_ID\t\tCOURSE_NAME\n.......................................................");
+                //foreach (Cource course in appEngine.listOfCourses())
+                //{
+                //    Console.WriteLine($"{course.course_id}\t\t\t\t{course.cource_name}");
+                //}
+                //Console.WriteLine("ENTER COURSE ID\n");
+                //int ID = Convert.ToInt32(ReadLine());
+                //Console.WriteLine("ENTER COURSE NAME\n");
+                //string C_NAME = ReadLine();
+                //Cource CC = new Cource(C_NAME, ID);
+                //appEngine.Enroll(student, CC);
+
                 Student student = new Student();
-                Console.WriteLine("ENTER STUDENT ID");
-                student.ID = Convert.ToInt32(ReadLine());
-                Console.WriteLine("ENTER THE STUDENT NAME:");
-                student.s_Name = ReadLine();
-                Console.WriteLine("CHOICE THE COURSE ACCORDING  TO  BELOW LIST");
-                Console.WriteLine("COURSE_ID\t\tCOURSE_NAME\n.......................................................");
-                foreach (Cource course in appEngine.listOfCourses())
-                {
-                    Console.WriteLine($"{course.course_id}\t\t\t\t{course.cource_name}");
-                }
-                Console.WriteLine("ENTER COURSE ID\n");
-                int ID = Convert.ToInt32(ReadLine());
-                Console.WriteLine("ENTER COURSE NAME\n");
-                string C_NAME = ReadLine();
-                Cource CC = new Cource(C_NAME, ID);
-                appEngine.Enroll(student, CC);
+                Cource cource = new Cource();
+
+                ENROLLMENT enroll = new ENROLLMENT();
+                Case5.Enrollmentdb ENDB = new Case5.Enrollmentdb();
+
+                ENDB.Enroll(student, cource, enroll);
+
                 Console.WriteLine("ENROLLED SUCCESSFULLY\n");
                 Console.WriteLine("ENTER TO GO PREVIOUS MENU\n");
                 ReadLine();
@@ -243,20 +255,23 @@ namespace CASESTUDY_3
             }
             public void EnrollmentList()
             {
-                Console.WriteLine("ENROLLMENT LIST");
-                var list_of_enrolled = appEngine.listOfEnrollments();
-                Console.WriteLine("STUDENT_ID\t\tSTUDENT\t\tDATE\t\tCOURSE_ID\t\tCOURSE\n...........................................................................................");
-                foreach (var v in list_of_enrolled)
-                {
-                    Console.WriteLine($"{v.student.ID}\t\t\t{v.student.s_Name}\t\t{v.student.Date.ToShortDateString()}\t\t{ v.course.course_id}\t\t{v.course.cource_name} ");
-                    Console.ReadLine();
-                }
+                //Console.WriteLine("ENROLLMENT LIST");
+                //var list_of_enrolled = appEngine.listOfEnrollments();
+                //Console.WriteLine("STUDENT_ID\t\tSTUDENT\t\tDATE\t\tCOURSE_ID\t\tCOURSE\n...........................................................................................");
+                //foreach (var v in list_of_enrolled)
+                //{
+                //    Console.WriteLine($"{v.student.ID}\t\t\t{v.student.s_Name}\t\t{v.student.Date.ToShortDateString()}\t\t{ v.course.course_id}\t\t{v.course.cource_name} ");
+                //    Console.ReadLine();
+                //}
+
+                Case5.Enrollmentdb ENDB = new Case5.Enrollmentdb();
+                ENDB.Display();
                 Console.WriteLine("ENTER TO GO FOR DASHBOARD");
                 ReadLine();
                 ShowFirstScreen();
             }
 
-         
+
             public static void Main(string[] args)
             {
                 UserInterface User = new UserInterface();
@@ -264,6 +279,8 @@ namespace CASESTUDY_3
                 Read();
 
             }
+
+
         }
     }
 }
