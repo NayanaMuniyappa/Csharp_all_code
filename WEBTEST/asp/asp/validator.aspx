@@ -47,7 +47,7 @@
     </script>
 </head>
 <body>
-    <form>
+    <form id="form1" runat="server">
         <div>
             <label for="txtName">Name:</label>
             <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
