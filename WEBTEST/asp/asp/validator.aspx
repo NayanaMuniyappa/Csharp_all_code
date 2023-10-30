@@ -77,7 +77,8 @@
             <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
         </div>
         <div>
-            <asp:Button ID="btnCheck" runat="server" Text="Check" OnClick="validateForm()" />
+            <asp:Button ID="btnCheck" runat="server" Text="Check" OnClick="btnCheck_Click" />
+            <asp:Label ID="resultLabel" runat="server" EnableViewState="false"></asp:Label>
         </div>
 
     </form>

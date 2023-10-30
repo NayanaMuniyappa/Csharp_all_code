@@ -71,3 +71,4 @@ D:\CSharp_Training_all_day\WEBTEST\asp\asp\obj\Debug\asp.csproj.CoreCompileInput
 D:\CSharp_Training_all_day\WEBTEST\asp\asp\obj\Debug\asp.csproj.CopyComplete
 D:\CSharp_Training_all_day\WEBTEST\asp\asp\obj\Debug\asp.dll
 D:\CSharp_Training_all_day\WEBTEST\asp\asp\obj\Debug\asp.pdb
+D:\CSharp_Training_all_day\WEBTEST\asp\asp\obj\Debug\asp.csproj.AssemblyReference.cache
