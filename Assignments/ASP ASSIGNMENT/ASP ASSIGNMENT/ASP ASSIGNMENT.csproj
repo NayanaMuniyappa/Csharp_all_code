@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assignment.aspx" />
+    <Content Include="Images\bike.jpeg" />
+    <Content Include="Images\car.jpeg" />
+    <Content Include="Images\truck.jpeg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,9 +92,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

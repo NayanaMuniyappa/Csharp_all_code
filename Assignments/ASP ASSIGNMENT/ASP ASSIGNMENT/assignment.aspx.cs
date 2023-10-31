@@ -11,44 +11,47 @@ namespace ASP_ASSIGNMENT
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if(!IsPostBack)
             {
-                // Initialize the Dropdown list
-                ddlItems.SelectedIndex = 0;
+                // Populate the dropdown list with items
+                ddlItems.Items.Add(new ListItem("Bike", "bike.jpeg"));
+                ddlItems.Items.Add(new ListItem("car", "car.jpeg"));
+                ddlItems.Items.Add(new ListItem("Truck", "truck.jpeg"));
             }
 
         }
 
         protected void ddlItems_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-            string selectedItem = ddlItems.SelectedValue;
-
-            if (!string.IsNullOrEmpty(selectedItem))
-            {
-                string imageUrl = $"Images/{selectedItem}.jpg"; // Assuming images have the same names as item values
-                imgDisplay.ImageUrl = imageUrl;
-
-                // You should have a data source for item costs, here is a simplified example:
-                string itemCost = GetItemCost(selectedItem);
-                lblCost.Text = $"Cost of {selectedItem}: {itemCost}";
-            }
-
-            imgDisplay.Visible = true;
-
+            // Set the image URL based on the selected item
+            string selectedImageUrl = ddlItems.SelectedItem.Value;
+            imgItem.ImageUrl = $"Images/{selectedImageUrl}";
         }
-        private string GetItemCost(string selectedItem)
+
+        protected void btnShowCost_Click(object sender, EventArgs e)
         {
-            switch (selectedItem)
+            // Get the cost of the selected item (You can replace this with your actual cost logic)
+            string selectedItem = ddlItems.SelectedItem.Text;
+            string cost = GetItemCost(selectedItem);
+
+            lblCost.Text = $"Cost of {selectedItem}: {cost}";
+        }
+
+        // You can implement your own cost retrieval logic here
+        private string GetItemCost(string item)
+        {
+            // Replace this with your cost retrieval logic
+            switch (item)
             {
+                case "Bike":
+                    return "Rs 20000";
                 case "car":
-                    return "$25,000";
-                case "bike":
-                    return "$500";
-                case "truck":
-                    return "$50,000";
+                    return "Rs 500000";
+                case "Truck":
+                    return "Rs 1000000";
+               
                 default:
-                    return "Not available";
+                    return "N/A";
             }
         }
     }

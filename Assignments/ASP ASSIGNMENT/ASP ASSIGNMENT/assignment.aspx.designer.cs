@@ -33,13 +33,13 @@ namespace ASP_ASSIGNMENT
         protected global::System.Web.UI.WebControls.DropDownList ddlItems;
 
         /// <summary>
-        /// imgDisplay control.
+        /// imgItem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgDisplay;
+        protected global::System.Web.UI.WebControls.Image imgItem;
 
         /// <summary>
         /// lblCost control.
@@ -49,5 +49,14 @@ namespace ASP_ASSIGNMENT
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCost;
+
+        /// <summary>
+        /// btnShowCost control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnShowCost;
     }
 }
