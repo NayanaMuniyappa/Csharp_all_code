@@ -1,7 +1,0 @@
-D:\practice\Factory_patteren\Factory_patteren\obj\Debug\Factory_patteren.csproj.AssemblyReference.cache
-D:\practice\Factory_patteren\Factory_patteren\obj\Debug\Factory_patteren.csproj.CoreCompileInputs.cache
-D:\practice\Factory_patteren\Factory_patteren\bin\Debug\Factory_patteren.exe.config
-D:\practice\Factory_patteren\Factory_patteren\bin\Debug\Factory_patteren.exe
-D:\practice\Factory_patteren\Factory_patteren\bin\Debug\Factory_patteren.pdb
-D:\practice\Factory_patteren\Factory_patteren\obj\Debug\Factory_patteren.exe
-D:\practice\Factory_patteren\Factory_patteren\obj\Debug\Factory_patteren.pdb

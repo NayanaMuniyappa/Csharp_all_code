@@ -1,0 +1,103 @@
+--Q]1. List all employees whose name begins with 'A'. 
+
+SELECT E.ENAME AS 'EMPLOYEE NAME'
+FROM EMP E
+WHERE E.ENAME LIKE 'A%';
+
+--Q]2.Select all those employees who don't have a manager. 
+
+ SELECT E.ENAME AS EMPLOYEE_NAME
+ FROM EMP E
+ WHERE E.MGR_ID= NULL;
+
+ --Q]3. List employee name, number and salary for those employees who earn in the range 1200 to 1400.
+ SELECT EMPNO,ENAME,SALARY
+ FROM EMP 
+ WHERE
+ SALARY BETWEEN 1200 AND 1400;
+
+ --Q]4. Give all the employees in the RESEARCH department a 10% pay rise. Verify that this has been done by listing all their details before and after the rise. 
+          UPDATE EMP SET SALARY=SALARY*1.10
+	  FROM  EMP E,DEPT D
+	  WHERE E.DEPTNO=D.DEPTNO AND D.DNAME='RESEARCH'
+
+	  SELECT * FROM EMP
+
+--Q]5.Find the number of CLERKS employed. Give it a descriptive heading.
+
+	SELECT COUNT(*) AS 'EMPLOYEE AS CLERKS'
+	FROM EMP 
+	WHERE JOB  = 'CLERK';
+
+--Q]6.Find the average salary for each job type and the number of people employed in each job. 
+
+ SELECT JOB,COUNT(*) AS 'NUMBER OF EMPLOYE' ,AVG(SALARY)
+ FROM EMP
+ GROUP BY JOB;
+
+ --Q]7. List the employees with the lowest and highest salary.
+
+ SELECT ENAME AS 'NAMES OF MIN SALARY'
+ FROM EMP WHERE SALARY=(SELECT MIN(SALARY) FROM EMP)
+ UNION
+ SELECT ENAME AS 'NAMES OF MAX SALARY'
+ FROM EMP WHERE SALARY=(SELECT MAX(SALARY) FROM EMP)
+
+ --Q]8.List full details of departments that don't have any employees. 
+      SELECT DEPTNO,DNAME,LOCATION
+	  FROM DEPT 
+	  WHERE  DEPT.DEPTNO NOT IN (SELECT DEPTNO FROM EMP )
+
+--Q]9. Get the names and salaries of all the analysts earning more than 1200 who are based in department 20.
+-------Sort the answer by ascending order of name. 
+    
+	SELECT ENAME , SALARY
+	FROM EMP
+	WHERE JOB='ANALYST' AND DEPTNO=20
+	ORDER BY ENAME;
+
+--Q]10. For each department,list its name and number together 
+------with the total salary paid to employees in that department. 
+	
+	SELECT D.DEPTNO ,D.DNAME ,SUM(SALARY)
+	FROM DEPT AS D,EMP AS E
+	GROUP BY D.DEPTNO,D.DNAME;
+
+--Q]11.Find out salary of both MILLER and SMITH.
+	SELECT ENAME ,SALARY
+	FROM EMP
+	WHERE ENAME='SMITH' 
+	UNION
+	SELECT ENAME ,SALARY
+	FROM EMP 
+	WHERE ENAME='MILLER';
+
+--Q]12.ind out the names of the employees whose name begin with ‘A’ or ‘M’.
+
+ SELECT EMPNO,ENAME
+ FROM EMP
+ WHERE ENAME LIKE 'A%' OR ENAME LIKE 'M%'
+
+--Q]13.Compute yearly salary of SMITH.
+
+  SELECT EMPNO,ENAME,(SALARY*12) AS 'ANNUAL SALARY'
+  FROM EMP
+  WHERE ENAME LIKE 'SMITH';
+
+--Q]14.List the name and salary for all employees whose salary is not in the range of 1500 and 2850.
+
+ SELECT EMPNO,ENAME,SALARY
+ FROM EMP
+ WHERE SALARY NOT BETWEEN 1500 AND 2850;
+
+--Q]15.Find all managers who have more than 2 employees reporting to them
+   
+SELECT M.ENAME AS "MANAGER", COUNT(E.ENAME)'NUMBER OF EMPLOYEE'
+FROM EMP M
+JOIN EMP E ON M.EMPNO = E.MGR_ID
+GROUP BY M.ENAME
+HAVING COUNT(E.ENAME) > 2;
+
+
+
+
