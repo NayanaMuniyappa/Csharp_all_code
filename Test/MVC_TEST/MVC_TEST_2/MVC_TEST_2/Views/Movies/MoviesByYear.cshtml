@@ -1,0 +1,19 @@
+﻿
+@model IEnumerable<MVC_TEST_2.Models.Movies>
+
+<h2>Movies</h2>
+<table>
+    <tr>
+        <th>Movie ID</th>
+        <th>Movie Name</th>
+        <th>Date of Release</th>
+    </tr>
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@movie.Mid</td>
+            <td>@movie.MovieName</td>
+            <td>@movie.DateOfRelease.ToString("yyyy-MM-dd")</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,2 @@
+D:\CSharp_Training_all_day\Test\MVC_TEST\MVC_TEST_2\MVC_TEST_2\obj\Debug\MVC_TEST_2.csproj.AssemblyReference.cache
+D:\CSharp_Training_all_day\Test\MVC_TEST\MVC_TEST_2\MVC_TEST_2\obj\Debug\MVC_TEST_2.csproj.CoreCompileInputs.cache

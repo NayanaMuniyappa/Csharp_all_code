@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MVC_TEST_1.Models.Customer>
+@{
+    ViewBag.Title = "Method1";
+}
+
+<h2>method1view</h2>
+
+<h2>Customers in Germany</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Customer ID</th>
+        <th>Company Name</th>
+        <!-- Add other necessary fields -->
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.CustomerID</td>
+                <td>@customer.CompanyName</td>
+                <!-- Add other necessary fields -->
+            </tr>
+        }
+    </tbody>
+</table>
+
+
