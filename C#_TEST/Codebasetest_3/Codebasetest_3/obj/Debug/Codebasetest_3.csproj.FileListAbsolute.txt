@@ -1,7 +1,0 @@
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\bin\Debug\Codebasetest_3.exe.config
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\bin\Debug\Codebasetest_3.exe
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\bin\Debug\Codebasetest_3.pdb
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\obj\Debug\Codebasetest_3.csproj.AssemblyReference.cache
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\obj\Debug\Codebasetest_3.csproj.CoreCompileInputs.cache
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\obj\Debug\Codebasetest_3.exe
-D:\CSharp_Training_all_day\Test\Codebasetest_3\Codebasetest_3\obj\Debug\Codebasetest_3.pdb
