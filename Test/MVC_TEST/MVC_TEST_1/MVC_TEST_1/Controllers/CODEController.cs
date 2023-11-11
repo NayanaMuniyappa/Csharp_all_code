@@ -27,8 +27,7 @@ namespace MVC_TEST_1.Controllers
         }
         public ActionResult method2()
         {
-            var customer =con.Orders.FirstOrDefault(c => c.OrderID== 10248);
-            return View(customer);
+            return View(con.custdetails1(10248));
         }
     }
 }

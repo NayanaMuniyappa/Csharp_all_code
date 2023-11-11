@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MVC_TEST_2.Models;
-using MVC_TEST_2.Models.Movies;
+
 
 namespace MVC_TEST_2.Controllers
 

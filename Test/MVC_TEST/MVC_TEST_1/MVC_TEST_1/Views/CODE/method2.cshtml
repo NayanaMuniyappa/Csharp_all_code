@@ -1,16 +1,23 @@
-﻿@model IEnumerable<MVC_TEST_1.Models.Customer>
+﻿@model IEnumerable<MVC_TEST_1.Models.custdetails1_Result>
 
 @{
     ViewBag.Title = "method2";
 }
 
-<table>
-    @foreach (var v in Model)
-    {
-   <tr>
-       <td>v.CustomerID</td>
-       <td>v.customername
-       </td>
-   </tr>
-   }
-</table>
+
+<h1>Order id 10248</h1>
+
+<p>
+    @foreach(var v in Model)
+            {
+                <ul>
+                    <li>
+                        @v.CustomerID
+                    </li>
+     
+                    <li>@v.OrderID</li>
+                    <li>@v.OrderDate</li>
+                    <li>@v.ShipAddress</li>
+                </ul>
+            }
+</p>

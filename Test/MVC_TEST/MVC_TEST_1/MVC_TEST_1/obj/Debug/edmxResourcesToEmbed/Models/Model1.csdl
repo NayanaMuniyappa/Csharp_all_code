@@ -539,6 +539,12 @@
       <Parameter Name="OrdYear" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="Ten_Most_Expensive_Products" ReturnType="Collection(NorthwindModel.Ten_Most_Expensive_Products_Result)" />
+    <FunctionImport Name="custdetails" ReturnType="Collection(NorthwindModel.custdetails_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="custdetails1" ReturnType="Collection(NorthwindModel.custdetails1_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="CustOrdersOrders_Result">
     <Property Type="Int32" Name="OrderID" Nullable="false" />
@@ -567,5 +573,37 @@
   <ComplexType Name="Ten_Most_Expensive_Products_Result">
     <Property Type="String" Name="TenMostExpensiveProducts" Nullable="false" MaxLength="40" />
     <Property Type="Decimal" Name="UnitPrice" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="custdetails_Result">
+    <Property Type="Int32" Name="OrderID" Nullable="false" />
+    <Property Type="String" Name="CustomerID" Nullable="true" MaxLength="5" />
+    <Property Type="Int32" Name="EmployeeID" Nullable="true" />
+    <Property Type="DateTime" Name="OrderDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="RequiredDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ShippedDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ShipVia" Nullable="true" />
+    <Property Type="Decimal" Name="Freight" Nullable="true" Precision="19" />
+    <Property Type="String" Name="ShipName" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="ShipAddress" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="ShipCity" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="ShipRegion" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="ShipPostalCode" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ShipCountry" Nullable="true" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="custdetails1_Result">
+    <Property Type="Int32" Name="OrderID" Nullable="false" />
+    <Property Type="String" Name="CustomerID" Nullable="true" MaxLength="5" />
+    <Property Type="Int32" Name="EmployeeID" Nullable="true" />
+    <Property Type="DateTime" Name="OrderDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="RequiredDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ShippedDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ShipVia" Nullable="true" />
+    <Property Type="Decimal" Name="Freight" Nullable="true" Precision="19" />
+    <Property Type="String" Name="ShipName" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="ShipAddress" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="ShipCity" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="ShipRegion" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="ShipPostalCode" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ShipCountry" Nullable="true" MaxLength="15" />
   </ComplexType>
 </Schema>
