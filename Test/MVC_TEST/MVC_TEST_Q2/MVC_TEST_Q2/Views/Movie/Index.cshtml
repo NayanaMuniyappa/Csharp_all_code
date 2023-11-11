@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MVC_TEST_Q2.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <thead>
+        <tr>
+            <td>mid</td>
+            <td>Moviename</td>
+            <td>relesedate</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var v in Model)
+            {
+                <tr>
+                    <td>@v.mid</td>
+                    <td>@v.MoviesName</td>
+                    <td>@v.date</td>
+                </tr>
+            }
+    </tbody>
+</table>
