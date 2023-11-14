@@ -14,6 +14,8 @@ namespace MVC_TEST_Q2.Models
         void insert(Movie obj);
         void update(Movie obj);
         void delete(Movie obj);
+
+        Movie getmovieonyear(Movie Year);
         void save();
     }
     public class Repository : IMovie
@@ -50,6 +52,13 @@ namespace MVC_TEST_Q2.Models
         {
            return  dbset.Find(id);
           
+        }
+
+        public Movie getmovieonyear(Movie year)
+        {
+            dynamic movies = dbset.Where(m => m.date .ToString()== year.ToString()).Select(m=>m.MoviesName).ToList();
+            return movies;
+
         }
     }
 }

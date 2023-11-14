@@ -87,6 +87,13 @@ namespace MVC_TEST_Q2.Controllers
             }
         }
 
+        [HttpGet]
+        public ActionResult MoviesByYear(Movie year)
+        {
+            var movies = _Mov.getmovieonyear(year);
+            return View(movies);
+        }
+
 
     }
 }
