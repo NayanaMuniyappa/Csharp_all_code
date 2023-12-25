@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NMx7m4tfuWHNgIf+GNTKg1/ynKqdhu5er9UXDHMc7vMyCDIQEqkKW/qGXAs10ptErp0C0HA3nLP3A9M3Jl7TVw==",
+  "success": true,
+  "projectFilePath": "D:\\CSharp_Training_all_day\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nayanam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nayanam\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nayanam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nayanam\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
